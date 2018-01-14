@@ -47,11 +47,23 @@
         </div>
 
         <div class="hero-list">
-            <div class="hero">
-
-            </div>
+            <?php
+            foreach ($final_hero_list as $hero) {
+            ?>
+            <a class="hero" href="/herodata.php?hero=<?php print(substr($hero['name'], 14)); ?>">
+                <div class="hero-image">
+                    <img src="http://cdn.dota2.com/apps/dota2/images/heroes/<?php print(substr($hero['name'], 14)); ?>_vert.jpg"/>
+                </div>
+                <div class="hero-name">
+                    <?php print($hero['localized_name']) ?>
+                </div>
+            </a>
+            <?php
+            }
+            ?>
         </div>
 
+    
         <?php
             // print($_GET['alphabet']);
         ?>

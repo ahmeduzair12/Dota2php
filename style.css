@@ -1,9 +1,12 @@
+body{
+  margin: auto;
+}
 .alphabets{
-    width: calc(66*13)px;
     display: flex;
     background: #eee;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .individual-alphabet{
@@ -54,3 +57,25 @@
   .active{
     box-shadow: 1px 1px 10px black;
   }
+  .hero-list{
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+  }
+  .hero{
+    padding:10px;
+    text-decoration:none;
+    text-align:center;
+  }
+  .hero-image>img{
+    width: 120px;
+    height: 180px;
+  }
+  .hero-name{
+      text-decoration: none;
+  }
+  .hero-name1,.hero-bio,.hero-type{
+    text-align:center;
+    margin:50px;
+  }
+  
