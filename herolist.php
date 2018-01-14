@@ -14,10 +14,6 @@
 
     }
 
-    // foreach ($final_hero_list as $hero) {
-    //     print($hero['localized_name']);
-    // }
-
 ?>
 <!DOCTYPE html>
 <html>
